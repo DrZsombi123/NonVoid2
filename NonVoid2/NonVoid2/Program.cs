@@ -7,7 +7,7 @@ namespace NonVoid2
         static void Main(string[] args)
         {
             public class NonVoid2
-        {
+            {
             /// <summary>
             /// Returns the square of num.
             /// </summary>
@@ -95,8 +95,12 @@ namespace NonVoid2
             /// <returns>The string "even" or the string "odd"</returns>
             public string EvenOdd(int num)
             {
-                // TODO : Determine if number is even or odd
-                throw new NotImplementedException();
+                if (num % 2 == 0)
+                {
+                    return "even";
+                }
+                else { return "odd"; }
+
             }
 
             public static void Main(string[] args)
@@ -138,8 +142,6 @@ namespace NonVoid2
                 Console.WriteLine("The number 84 is " + app.EvenOdd(84));
                 Console.WriteLine("The number 27 is " + app.EvenOdd(27));
             }
-        }
-
     }
-}
+
 }
