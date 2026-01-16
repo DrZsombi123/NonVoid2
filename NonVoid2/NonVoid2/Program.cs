@@ -84,8 +84,10 @@ namespace NonVoid2
             /// <returns>A string response</returns>
             public string Season(int month)
             {
-                // TODO : Return season based on month value
-                throw new NotImplementedException();
+                If month >= 1 && month <= 3 it returns "winter"
+                If month >= 4 && month <= 6 it returns "spring"
+                If month >= 7 && month <= 9 it returns "summer"
+                If month >= 10 && month <= 12 it returns "fall"
             }
 
             /// <summary>
