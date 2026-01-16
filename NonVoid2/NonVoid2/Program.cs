@@ -1,4 +1,6 @@
-﻿namespace NonVoid2
+﻿using System.Linq;
+
+namespace NonVoid2
 {
     internal class Program
     {
@@ -53,8 +55,19 @@
             public string FortuneCookie()
             {
                 int num = new Random().Next(0, 5);
-                // TODO : Return fortune cookie response based on random number
-                throw new NotImplementedException();
+                switch (num) {
+                    case 0:
+                        return "Your future looks bright";
+                    case 1:
+                        return "I see love in your future";
+                    case 2:
+                        return "Maybe you better stay home today";
+                    case 3:
+                        return "You will have fame and fortune";
+                    default: 
+                        return "Happiness you will have";
+                }
+                
             }
 
             /// <summary>
