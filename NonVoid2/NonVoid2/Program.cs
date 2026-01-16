@@ -13,8 +13,9 @@
             /// <returns>The square of num</returns>
             public int Square(int num)
             {
-                // TODO : Implement square calculation
-                throw new NotImplementedException();
+                
+                return num*num;
+                
             }
 
             /// <summary>
