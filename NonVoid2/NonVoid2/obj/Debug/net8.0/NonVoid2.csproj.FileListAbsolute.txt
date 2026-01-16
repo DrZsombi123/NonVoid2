@@ -1,0 +1,5 @@
+C:\Users\sandor.gergo\Documents\GitHub\NonVoid2\NonVoid2\NonVoid2\obj\Debug\net8.0\NonVoid2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sandor.gergo\Documents\GitHub\NonVoid2\NonVoid2\NonVoid2\obj\Debug\net8.0\NonVoid2.AssemblyInfoInputs.cache
+C:\Users\sandor.gergo\Documents\GitHub\NonVoid2\NonVoid2\NonVoid2\obj\Debug\net8.0\NonVoid2.AssemblyInfo.cs
+C:\Users\sandor.gergo\Documents\GitHub\NonVoid2\NonVoid2\NonVoid2\obj\Debug\net8.0\NonVoid2.csproj.CoreCompileInputs.cache
+C:\Users\sandor.gergo\Documents\GitHub\NonVoid2\NonVoid2\NonVoid2\obj\Debug\net8.0\NonVoid2.sourcelink.json

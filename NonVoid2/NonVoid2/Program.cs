@@ -1,11 +1,13 @@
-﻿namespace NonVoid2
+﻿using System.Linq;
+
+namespace NonVoid2
 {
     internal class Program
     {
         static void Main(string[] args)
         {
             public class NonVoid2
-        {
+            {
             /// <summary>
             /// Returns the square of num.
             /// </summary>
@@ -13,8 +15,9 @@
             /// <returns>The square of num</returns>
             public int Square(int num)
             {
-                // TODO : Implement square calculation
-                throw new NotImplementedException();
+                
+                return num*num;
+                
             }
 
             /// <summary>
@@ -26,8 +29,7 @@
             /// <returns>The sum of num1, num2, and num3</returns>
             public int SumThree(int num1, int num2, int num3)
             {
-                // TODO : Implement sum of three numbers
-                throw new NotImplementedException();
+                return num1 + num2 + num3;
             }
 
             /// <summary>
@@ -56,8 +58,19 @@
             public string FortuneCookie()
             {
                 int num = new Random().Next(0, 5);
-                // TODO : Return fortune cookie response based on random number
-                throw new NotImplementedException();
+                switch (num) {
+                    case 0:
+                        return "Your future looks bright";
+                    case 1:
+                        return "I see love in your future";
+                    case 2:
+                        return "Maybe you better stay home today";
+                    case 3:
+                        return "You will have fame and fortune";
+                    default: 
+                        return "Happiness you will have";
+                }
+                
             }
 
             /// <summary>
@@ -84,8 +97,12 @@
             /// <returns>The string "even" or the string "odd"</returns>
             public string EvenOdd(int num)
             {
-                // TODO : Determine if number is even or odd
-                throw new NotImplementedException();
+                if (num % 2 == 0)
+                {
+                    return "even";
+                }
+                else { return "odd"; }
+
             }
 
             public static void Main(string[] args)
@@ -127,8 +144,6 @@
                 Console.WriteLine("The number 84 is " + app.EvenOdd(84));
                 Console.WriteLine("The number 27 is " + app.EvenOdd(27));
             }
-        }
-
     }
-}
+
 }
